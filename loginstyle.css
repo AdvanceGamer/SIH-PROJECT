@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f3;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+#logincontainer {
+  display: flex;
+  min-height: 360px;
+  min-width: 330px;
+  /* background-color: aqua; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 20px;
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#userid {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.y8d2bhvzrlD8vypkUhttLgHaHb&pid=Api&P=0&w=156&h=156);
+  background-repeat: no-repeat;
+  background-size: 33px;
+  margin: 43px 0px -43px 0px;
+}
+#password {
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.q1yDY6KYfQkrGlaUyUSUqgHaHZ&pid=Api&P=0&w=165&h=165);
+  background-repeat: no-repeat;
+  background-size: 33px;
+  /* margin: 43px 0px -43px 0px; */
+}
+input {
+  /* display: block; */
+  width: 197px;
+  height: 33px;
+  background: none;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 0px 0px 0px 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+label {
+  font-size: large;
+  margin: 11px 0px 5px 0px;
+}
+
+#submit{
+    padding:0px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(240, 235, 228, 0.74);
+    box-shadow: rgba(221, 219, 219, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
