@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Attendence</title>
+    <link rel="stylesheet" href="calenderstyle.css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <h1>Upload Attendence</h1>
+    </header>
+    <main id="main">
+      <section id="section1">
+        <!-- <button id="choosebutton" class="choosedate-style-btn choosedate-style-dark">Choose Date</button> -->
+        <form action="#" method="post"></form>
+      </section>
+      <section id="section2">
+        <div class="center">
+          <div class="form-input">
+            <div class="preview">
+              <img id="file-ip-1-preview" />
+            </div>
+            <form id="form2" action="#" method="get">
+              <label id="choosedate" for="uploaddate">ChooseDate</label>
+              <input type="date" name="date" id="uploaddate" />
+              <label id="selectimage" for="file-ip-1">Select Image</label>
+              <input
+                type="file"
+                id="file-ip-1"
+                accept="image/*"
+                onchange="showPreview(event);"
+              />
+              <input id="submitphoto" type="submit" value="Upload Image" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="calenderscript.js"></script>
+  </body>
+</html>
