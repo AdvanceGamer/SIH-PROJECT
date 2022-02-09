@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.secdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#detailscontainer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+}
+#filldetails {
+  height: 450px;
+  width: 450px;
+  background-color: #00000029;
+  padding: 10px;
+}
+label {
+  padding: 20px;
+  font-size: larger;
+}
+input {
+  margin: 7px;
+  height: 30px;
+  width: 440px;
+  font-size: large;
+}
+
+#submit {
+  width: 82px;
+  margin-left: 187px;
+}
+#addphotocontainer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid black;
+}
+#addphoto {
+  height: 450px;
+  width: 450px;
+  background-color: #00000029;
+  padding: 10px;
+}
+
+/*Upload photo start*/
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-input {
+  width: 95px;
+  padding: 1px;
+  margin-left: 178px;
+  background: rgb(214 214 214);
+  box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),
+    3px 3px 7px rgba(94, 104, 121, 0.377);
+}
+.form-input #file-ip-1 {
+  display: none;
+}
+.form-input label {
+  display: block;
+  width: 57%;
+  height: 36px;
+  /* margin-left: 0%; */
+  line-height: 20px;
+  text-align: center;
+  background:#b2adad;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: Uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-input img {
+  width: 100%;
+  display: none;
+
+  margin-bottom: 30px;
+}
+
+#submitphoto {
+  display: none;
+  width: 50%;
+  height: 62px;
+  margin-left: 25%;
+  line-height: 50px;
+  text-align: center;
+  background: #1172c2;
+
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: Uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*Upload Photo End*/
